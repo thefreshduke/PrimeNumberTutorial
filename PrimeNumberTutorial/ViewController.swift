@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func checkIfNumberIsPrime(sender: AnyObject) {
+        let number = Int(textField.text!)
     }
 
     override func viewDidLoad() {
